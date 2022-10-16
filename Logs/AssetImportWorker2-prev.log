@@ -1,0 +1,916 @@
+Using pre-set license
+Built from '2022.1/china_unity/release' branch; Version is '2022.1.16f1c1 (c48b242658a2) revision 12880676'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'zh' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.16f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/ZhuaC/MyProject/U3DAvatar
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59823
+Successfully changed project path to: D:/ZhuaC/MyProject/U3DAvatar
+D:/ZhuaC/MyProject/U3DAvatar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 46.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.16f1c1 (c48b242658a2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ZhuaC/MyProject/U3DAvatar/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6750 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12243 MB
+    Driver:   30.0.15021.11005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005680 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 34.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (367ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (86ms)
+				TypeCache.Initialize (86ms)
+					TypeCache.ScanAssembly (84ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (997ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (693ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+				TypeCache.Initialize (156ms)
+					TypeCache.ScanAssembly (152ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (58.2 KB). Loaded Objects now: 2844.
+Memory consumption went from 386.5 MB to 386.4 MB.
+Total: 5.667700 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.053200 ms MarkObjects: 5.318000 ms  DeleteObjects: 0.083900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37830.324934 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_top-2_normal.tga
+  artifactKey: Guid(a4656c6b3916ffb458e92ead6f440462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_top-2_normal.tga using Guid(a4656c6b3916ffb458e92ead6f440462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eeb3c450789b8a109398e0f8fe86692') in 0.080771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sources/Character/characters/Male/Male@item_pants.fbx
+  artifactKey: Guid(c6e516d56951f1b4bb856afed3874b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/Male@item_pants.fbx using Guid(c6e516d56951f1b4bb856afed3874b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6790c7ee524be393b908faa89c23344') in 0.402470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sources/Character/characters/Female/Per Texture Materials/female_eyes_blue.mat
+  artifactKey: Guid(ccfb74bb9866e7344baba88b232f7c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Per Texture Materials/female_eyes_blue.mat using Guid(ccfb74bb9866e7344baba88b232f7c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf72fea620499d0e9ee9656129f9b7a') in 0.115513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_top-1_pink.tga
+  artifactKey: Guid(26c5afb5569acb747a97ff596845d9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_top-1_pink.tga using Guid(26c5afb5569acb747a97ff596845d9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e512156fd2cf1c7ce48bfabffeca4f') in 0.007961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sources/Character/Env/dressing_room/textures/cubemap_x12.tga
+  artifactKey: Guid(c204035d3348e044da0e47f6e5cdce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/Env/dressing_room/textures/cubemap_x12.tga using Guid(c204035d3348e044da0e47f6e5cdce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015793f4aca225a47a2e2bf3c04a9620') in 0.009002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sources/Character/characters/Female/textures/female_face-1_normal.tga
+  artifactKey: Guid(66010ec14b4da244a9255f0169de9b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/textures/female_face-1_normal.tga using Guid(66010ec14b4da244a9255f0169de9b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cc7c7bc1869955234129ede6241dbd') in 0.008476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_top-2_green.tga
+  artifactKey: Guid(4b296543e5fb24e4ebfe3eea85690d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_top-2_green.tga using Guid(4b296543e5fb24e4ebfe3eea85690d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d800ba6076f5d9ca8d769fe3ccf8e86') in 0.006579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-1_green.mat
+  artifactKey: Guid(c39e767eadfb7c848a2d0d808c567223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-1_green.mat using Guid(c39e767eadfb7c848a2d0d808c567223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3848d8ee9a91423de21bd4aab0d6fc5') in 0.011661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sources/Character/characters/Female/textures/female_eyes_brown.tga
+  artifactKey: Guid(55ddbe23cf5d5844494f204023345e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/textures/female_eyes_brown.tga using Guid(55ddbe23cf5d5844494f204023345e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfe10a358b9624499bff3a1be8b7a78') in 0.006990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sources/Character/characters/Female/textures/female_face-2_normal.tga
+  artifactKey: Guid(8c612657400c05d4b8ed3627ec10dce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/textures/female_face-2_normal.tga using Guid(8c612657400c05d4b8ed3627ec10dce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ba0fda80ad34d4ecf594c52cf81404') in 0.008406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sources/Character/characters/Female/Female@item_shirt.fbx
+  artifactKey: Guid(19e3aa0e74c02d9448ae08b187fad7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Female@item_shirt.fbx using Guid(19e3aa0e74c02d9448ae08b187fad7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b506610ddc024ce046f6a610b3cdb2f') in 0.096689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_top-1_normal.tga
+  artifactKey: Guid(41fabce39534a774f84023a9770aff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_top-1_normal.tga using Guid(41fabce39534a774f84023a9770aff1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c819d1a89dee603106a3034b9dd71800') in 0.007346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sources/Character/Env/dressing_room/textures/cubemap_y2.tga
+  artifactKey: Guid(29e2e3221d6483747b66c84ec58a8db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/Env/dressing_room/textures/cubemap_y2.tga using Guid(29e2e3221d6483747b66c84ec58a8db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca52030bcd2dcd83b484a0158be8d7b') in 0.007072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sources/Character/Env/dressing_room/textures/cubemap_y1.tga
+  artifactKey: Guid(e50713e0334aebe4c8d12665ff599fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/Env/dressing_room/textures/cubemap_y1.tga using Guid(e50713e0334aebe4c8d12665ff599fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a036b492ba74c4f43410b78d5bf78e') in 0.006808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-2_orange.mat
+  artifactKey: Guid(d412bcb88156fdc43ab658ca7261fe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-2_orange.mat using Guid(d412bcb88156fdc43ab658ca7261fe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6083bcf68551d46dc1515973cc794c8f') in 0.009475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.497948 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_top-1_yellow.tga
+  artifactKey: Guid(10d4e8ef3081e0f4ea61e73dfa1c56f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_top-1_yellow.tga using Guid(10d4e8ef3081e0f4ea61e73dfa1c56f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d023d8193a587e4b885a1419382ccf5') in 0.006107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084269 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_shoes-2_red.tga
+  artifactKey: Guid(4a37277976c12f945af322f6eb67a315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_shoes-2_red.tga using Guid(4a37277976c12f945af322f6eb67a315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1562858a4fed261967b1d55cf95a9ea6') in 0.006349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023778 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_shoes-2_dark.tga
+  artifactKey: Guid(ace6c8eca7b7ef642866cccd1eb7a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_shoes-2_dark.tga using Guid(ace6c8eca7b7ef642866cccd1eb7a0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cf8c36a8799500e6951f3d520f69a0') in 0.006029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037720 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_shoes-2_brown.tga
+  artifactKey: Guid(256b146cea8df4c4e8326d43fa8f7bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_shoes-2_brown.tga using Guid(256b146cea8df4c4e8326d43fa8f7bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec33c5a98e82c2f25020b32fd029385') in 0.005894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024359 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_shoes-1_red.tga
+  artifactKey: Guid(f74409d0dacd4e846876f038a07a0b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_shoes-1_red.tga using Guid(f74409d0dacd4e846876f038a07a0b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4a9b4ec3f18b9dcff5662cb01d8601') in 0.006146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025209 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_shoes-1_green.tga
+  artifactKey: Guid(14eb799cd1720604c8e2b78d9492e916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_shoes-1_green.tga using Guid(14eb799cd1720604c8e2b78d9492e916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b7c8208767dc3e12d0db8690c06f48') in 0.006220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024235 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_shoes-1_black.tga
+  artifactKey: Guid(eeb5ed004c01a514f8ed59ed79245f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_shoes-1_black.tga using Guid(eeb5ed004c01a514f8ed59ed79245f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77479f60d7e10db0adbe04e6027b832') in 0.006120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047548 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_pants-2_purple.tga
+  artifactKey: Guid(bc9a080681387c549ac346da3fb218d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_pants-2_purple.tga using Guid(bc9a080681387c549ac346da3fb218d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b099c069de11c34d0aba4cc904cf9e88') in 0.006786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027155 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_pants-2_lillac.tga
+  artifactKey: Guid(a42e91bdc9fd12f45aaa1d0d61ab5aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_pants-2_lillac.tga using Guid(a42e91bdc9fd12f45aaa1d0d61ab5aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363624cf102b4542ca2fa1526139177e') in 0.006336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023179 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_pants-2_blue.tga
+  artifactKey: Guid(734ae9f3f22df7d4085a41c0e19421f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_pants-2_blue.tga using Guid(734ae9f3f22df7d4085a41c0e19421f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523025e5352415db8246f16cedc2e0c3') in 0.005890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024531 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_pants-1_green.tga
+  artifactKey: Guid(b167d20013d0bea449e388e303fa55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_pants-1_green.tga using Guid(b167d20013d0bea449e388e303fa55f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbb7f55ce3e0a619a82638c891c67eb') in 0.006603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024573 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_pants-1_dark.tga
+  artifactKey: Guid(245d79a1ae70dcd4db06ef32b35cf546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_pants-1_dark.tga using Guid(245d79a1ae70dcd4db06ef32b35cf546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532823e6c601d5f04bfdcadc7cfc7123') in 0.006029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013856 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_pants-1_blue.tga
+  artifactKey: Guid(ce483c494e10c074b8f05f2ca0abdd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_pants-1_blue.tga using Guid(ce483c494e10c074b8f05f2ca0abdd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ef1fb712018df5f19e14397b7937e1') in 0.006396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030962 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_hair-2_red.tga
+  artifactKey: Guid(f9ee69364c9efb94f893e3177ad16e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_hair-2_red.tga using Guid(f9ee69364c9efb94f893e3177ad16e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e332334093872bea0df92c2d6a17e02') in 0.007170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025434 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_hair-2_brown.tga
+  artifactKey: Guid(5cfa934edda805249b2502860df276cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_hair-2_brown.tga using Guid(5cfa934edda805249b2502860df276cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139a5e12f11b3f106319eee6c69c1ca0') in 0.005893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058270 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_hair-2_blond.tga
+  artifactKey: Guid(d28cd4981ac680e4e81c381e061120bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_hair-2_blond.tga using Guid(d28cd4981ac680e4e81c381e061120bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3040f92e550a13f985552badf7b39e89') in 0.006026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024371 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_hair-1_orange.tga
+  artifactKey: Guid(5a99355bc600fbd49af8f24e029d8228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_hair-1_orange.tga using Guid(5a99355bc600fbd49af8f24e029d8228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d0799300415e9244053592c9d7ec19') in 0.006450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055506 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_hair-1_brown.tga
+  artifactKey: Guid(999f099f814025e49969d44aca7c4338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_hair-1_brown.tga using Guid(999f099f814025e49969d44aca7c4338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321722399b597e571a262dfed86cc9cf') in 0.005875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053164 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_hair-1_blond.tga
+  artifactKey: Guid(a58777731794ea140a996ddd9bcc73a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_hair-1_blond.tga using Guid(a58777731794ea140a996ddd9bcc73a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a121f3a1b97d707a88e7ea3394d329') in 0.006078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024893 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_face-2.tga
+  artifactKey: Guid(24a1e3b53ba90314a99ac347356948c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_face-2.tga using Guid(24a1e3b53ba90314a99ac347356948c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c43a810979848a87d35744c94ad122d') in 0.006353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024024 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_face-1.tga
+  artifactKey: Guid(d09f3895446f8104888b73ad58434343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_face-1.tga using Guid(d09f3895446f8104888b73ad58434343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e149a31ce5c37783a63488ab92072f3b') in 0.006541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089832 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_eyes_green.tga
+  artifactKey: Guid(7d14f9a700abce24182c2bbc1ae073c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_eyes_green.tga using Guid(7d14f9a700abce24182c2bbc1ae073c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edb4edd84763341765995ffb5d00035') in 0.005553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016136 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_eyes_brown.tga
+  artifactKey: Guid(66ab28568e1096649ac49f6782566226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_eyes_brown.tga using Guid(66ab28568e1096649ac49f6782566226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1810419cf63b1679bb6119479ce3ea7e') in 0.005158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014414 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_eyes_blue.tga
+  artifactKey: Guid(c77f44c393830804bacb4d10517f362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_eyes_blue.tga using Guid(c77f44c393830804bacb4d10517f362d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919726e019ed952d0ab22dddb6d38dd9') in 0.005087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026652 seconds.
+  path: Assets/Sources/Character/characters/Male/Per Texture Materials
+  artifactKey: Guid(b47a7a94774d50742895b8cf8c554311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/Per Texture Materials using Guid(b47a7a94774d50742895b8cf8c554311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec38907bd710cb3477294ad7573dc637') in 0.001229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016101 seconds.
+  path: Assets/Sources/Character/characters/Male
+  artifactKey: Guid(34c7d92640a09144086856c699479d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male using Guid(34c7d92640a09144086856c699479d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a358443610da2388bb166e51326dd9a4') in 0.001380 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (837ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+				TypeCache.Initialize (148ms)
+					TypeCache.ScanAssembly (143ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (24.6 KB). Loaded Objects now: 2897.
+Memory consumption went from 389.6 MB to 389.6 MB.
+Total: 5.182400 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.080900 ms MarkObjects: 4.929000 ms  DeleteObjects: 0.020800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (136ms)
+				TypeCache.Initialize (134ms)
+					TypeCache.ScanAssembly (130ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (24.5 KB). Loaded Objects now: 2900.
+Memory consumption went from 389.6 MB to 389.6 MB.
+Total: 4.981000 ms (FindLiveObjects: 0.146200 ms CreateObjectMapping: 0.050900 ms MarkObjects: 4.764900 ms  DeleteObjects: 0.018400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+				TypeCache.Initialize (140ms)
+					TypeCache.ScanAssembly (135ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (24.6 KB). Loaded Objects now: 2903.
+Memory consumption went from 389.6 MB to 389.6 MB.
+Total: 4.992500 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.082500 ms MarkObjects: 4.721600 ms  DeleteObjects: 0.020400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+				TypeCache.Initialize (128ms)
+					TypeCache.ScanAssembly (123ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (24.6 KB). Loaded Objects now: 2906.
+Memory consumption went from 389.6 MB to 389.6 MB.
+Total: 5.329900 ms (FindLiveObjects: 0.145200 ms CreateObjectMapping: 0.073500 ms MarkObjects: 5.090300 ms  DeleteObjects: 0.020400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (798ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+				TypeCache.Initialize (139ms)
+					TypeCache.ScanAssembly (135ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (24.6 KB). Loaded Objects now: 2909.
+Memory consumption went from 389.5 MB to 389.5 MB.
+Total: 4.774700 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.054400 ms MarkObjects: 4.546200 ms  DeleteObjects: 0.017100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+				TypeCache.Initialize (127ms)
+					TypeCache.ScanAssembly (122ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (24.7 KB). Loaded Objects now: 2912.
+Memory consumption went from 389.6 MB to 389.6 MB.
+Total: 5.049600 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.071600 ms MarkObjects: 4.810300 ms  DeleteObjects: 0.017200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+				TypeCache.Initialize (131ms)
+					TypeCache.ScanAssembly (127ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (24.6 KB). Loaded Objects now: 2915.
+Memory consumption went from 389.6 MB to 389.6 MB.
+Total: 5.293700 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.058800 ms MarkObjects: 5.066400 ms  DeleteObjects: 0.018200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (598ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+				TypeCache.Initialize (138ms)
+					TypeCache.ScanAssembly (134ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (24.6 KB). Loaded Objects now: 2918.
+Memory consumption went from 389.7 MB to 389.6 MB.
+Total: 4.988700 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.058500 ms MarkObjects: 4.768400 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1530.855584 seconds.
+  path: Assets/Sources/Character/characters/Male/Male.FBX
+  artifactKey: Guid(c6b638184c831014eaaf1669e8987a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/Male.FBX using Guid(c6b638184c831014eaaf1669e8987a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5f151952219d691c8f170eec7f8842') in 0.123140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.281197 seconds.
+  path: Assets/Sources/Character/characters/Male/textures
+  artifactKey: Guid(64d81a9430733e94cbc82debf4d572a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures using Guid(64d81a9430733e94cbc82debf4d572a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc92bb47d6aff294f2ba57e2441c59b') in 0.001562 seconds 

@@ -1,0 +1,270 @@
+Using pre-set license
+Built from '2022.1/china_unity/release' branch; Version is '2022.1.16f1c1 (c48b242658a2) revision 12880676'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'zh' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.16f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/ZhuaC/MyProject/U3DAvatar
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59823
+Successfully changed project path to: D:/ZhuaC/MyProject/U3DAvatar
+D:/ZhuaC/MyProject/U3DAvatar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 46.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.16f1c1 (c48b242658a2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ZhuaC/MyProject/U3DAvatar/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6750 XT (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12243 MB
+    Driver:   30.0.15021.11005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005833 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 33.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (540ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (375ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+				TypeCache.Initialize (94ms)
+					TypeCache.ScanAssembly (92ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+				TypeCache.Initialize (150ms)
+					TypeCache.ScanAssembly (146ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2389 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (58.2 KB). Loaded Objects now: 2844.
+Memory consumption went from 386.5 MB to 386.4 MB.
+Total: 6.706200 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.172300 ms MarkObjects: 6.192700 ms  DeleteObjects: 0.096900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37830.219292 seconds.
+  path: Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-1_blue.mat
+  artifactKey: Guid(9efac9e1a5e48de42b45f531b33e2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-1_blue.mat using Guid(9efac9e1a5e48de42b45f531b33e2f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971c4a3363e77a2f189021ffe8767267') in 0.112155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sources/Character/characters/Female/textures/female_eyes_green.tga
+  artifactKey: Guid(765ae4213bad60e49801390411212a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/textures/female_eyes_green.tga using Guid(765ae4213bad60e49801390411212a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfdccf751d20e559d5aef64b4155ba4') in 0.014856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-2_purple.mat
+  artifactKey: Guid(6d349fb8051df3c4383349b790792cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-2_purple.mat using Guid(6d349fb8051df3c4383349b790792cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cc92276b665d0f850ecffd6f886ae9') in 0.012075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sources/Character/characters/Male/Per Texture Materials/male_top-1_pink.mat
+  artifactKey: Guid(5cd23d26e99fffa459cd1b8078bf0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/Per Texture Materials/male_top-1_pink.mat using Guid(5cd23d26e99fffa459cd1b8078bf0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfc67b75b42f3a19e59a4aee01db7d7') in 0.011050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sources/Character/characters/Female/textures/female_top-1_normal.tga
+  artifactKey: Guid(8502f5c9d6dee2c42996f57267379512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/textures/female_top-1_normal.tga using Guid(8502f5c9d6dee2c42996f57267379512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff9ff29513269c8fb0ab9e070e7daba') in 0.009389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sources/Character/characters/Female/Female@walkin.fbx
+  artifactKey: Guid(f81125c2f2f650143b2a3ed37e780ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Female@walkin.fbx using Guid(f81125c2f2f650143b2a3ed37e780ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37588b6ea21d4e5fbb84667a793915c') in 0.383055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sources/Character/characters/Male/Per Texture Materials/male_top-2_gray.mat
+  artifactKey: Guid(7e5049a3386e48e428e9a9441cf5eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/Per Texture Materials/male_top-2_gray.mat using Guid(7e5049a3386e48e428e9a9441cf5eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b11e62e269efcd75f5d06fe10c12c3') in 0.011217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sources/Character/characters/Male/Per Texture Materials/male_top-2_orange.mat
+  artifactKey: Guid(8e4ffc40729a60a489b0e6906c820ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/Per Texture Materials/male_top-2_orange.mat using Guid(8e4ffc40729a60a489b0e6906c820ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8646e64412cf58264429a714ee42809') in 0.008500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sources/Character/characters/Female/textures/female_top-1_blue.tga
+  artifactKey: Guid(3ab3ff8e469a2084b9adc5ae16f0ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/textures/female_top-1_blue.tga using Guid(3ab3ff8e469a2084b9adc5ae16f0ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5820c018c150f022cfb62777a454d065') in 0.006906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sources/Character/characters/Male/textures/male_top-2_orange.tga
+  artifactKey: Guid(026222ca92605dd42b05ed37c23d4cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Male/textures/male_top-2_orange.tga using Guid(026222ca92605dd42b05ed37c23d4cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b9e96eca1c91474172a3ebbf4bf702') in 0.006759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sources/Character/characters/Female/textures/female_top-2_green.tga
+  artifactKey: Guid(9ecff07e4f961ea49a90625d8ae07d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/textures/female_top-2_green.tga using Guid(9ecff07e4f961ea49a90625d8ae07d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ba608b049a45abb78cf32df84c61b7') in 0.009295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sources/Character/characters/Female/Female@item_boots.fbx
+  artifactKey: Guid(d376e0ef92fd6764ea5c39c7eead1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Female@item_boots.fbx using Guid(d376e0ef92fd6764ea5c39c7eead1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccacbfd790cd793e7463d7d00021262') in 0.101530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sources/Character/characters/Female/Female@walk.fbx
+  artifactKey: Guid(3cc7290bfd13db44fa9cb68ddaa3028f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Female@walk.fbx using Guid(3cc7290bfd13db44fa9cb68ddaa3028f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf50ce922a2f8ea9eccc5d691c092410') in 0.101978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-2_green.mat
+  artifactKey: Guid(9bff60875087ef641b5fa3538ecf2dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/Per Texture Materials/female_top-2_green.mat using Guid(9bff60875087ef641b5fa3538ecf2dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd920cbc397ec088ad1f8b1a56c1777a') in 0.008798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sources/Character/characters/Female/textures/female_top-1_pink.tga
+  artifactKey: Guid(366fe93ec70c6ce48b177af4c1f641f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/characters/Female/textures/female_top-1_pink.tga using Guid(366fe93ec70c6ce48b177af4c1f641f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6ef90204bc91b2966e978ea4abce76') in 0.007354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sources/Character/Env/dressing_room/dressing_room.FBX
+  artifactKey: Guid(35774aac40e83624c9b6dcde325bc054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Character/Env/dressing_room/dressing_room.FBX using Guid(35774aac40e83624c9b6dcde325bc054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a652461c2f1f5f11821b0534805d949d') in 0.171006 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
